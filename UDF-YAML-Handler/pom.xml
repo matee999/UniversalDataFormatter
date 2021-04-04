@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>raf.petrovic-pleskonjic</groupId>
+  <artifactId>universal-data-formatter-yaml-handler</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Universal Data Formatter (UDF) - YAML Handler</name>
+  <description>YAML handler implementation for UDF</description>
+  
+   <dependencies>
+   
+  	<dependency>
+  		<groupId>raf.petrovic-pleskonjic</groupId>
+  		<artifactId>universal-data-formatter-specification</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
+  	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.dataformat</groupId>
+	    <artifactId>jackson-dataformat-yaml</artifactId>
+	    <version>2.11.3</version>
+	</dependency>
+  	
+  </dependencies>
+</project>

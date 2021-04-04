@@ -1,0 +1,8 @@
+----------
+#id: 0
+#name: a
+@attributes:
+	#b: c
+	#d: e
+@children: null
+----------
